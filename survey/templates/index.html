@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Form Test Index</title>
+	</head>
+	<body>
+		<div id='wrapper'>
+				<h1>h1 tag</h1>
+				<form action='/result'  method='post'>
+					Your Name: <input type='text' name='user'><br>
+			
+				
+					Dojo Location:
+					<select name="location">
+					<option value="San Jose">San Jose</option>
+					<option value="Bellevue">Bellevue</option>
+					<option value="Dallas">Dallas</option>
+					<option value="Washington D.C.">Washington D.C.</option>
+					</select>
+					<br><br>
+				
+				
+					Favorite Language:
+					<select name="languages">
+					<option value="Python">Python</option>
+					<option value="Javascript">Javascript</option>
+					<option value="Ruby">Ruby</option>
+					<option value="C#">C#</option>
+					</select>
+					<br><br>
+				
+					Comment (optional):
+					<textarea name='comment' rows="4" cols="50">
+					</textarea>
+					
+				
+					<input type='submit' value='submit'>
+					<input type="reset" value="clear">
+				</form>
+				
+		</div> <!-- end of wrapper -->
+	</body>
+</html>
